@@ -1,0 +1,131 @@
+@charset "utf-8";
+body {
+	padding: 0;
+	margin: 0;
+	background-image: url(IMAGES/homecover.jpg);
+	background-size: cover;
+}
+wrapper {
+	width: 1366px;
+	margin: 0 auto;
+	display: block;
+	background-color: #fff;
+}
+header {
+	height: 150px;
+	background-image: url(IMAGES/header-image.png);
+}
+footer {
+	padding: 16px;
+	font-size: 12px;
+}
+nav {
+	background-color: rgba(213,191,214,0.50);
+
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+ul a li {
+	display: inline-block;
+	padding: 16px 24px;
+	font-size: 20px;
+	color: #857689;
+	font-style: italic;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+}
+ul a li:hover {
+	background-color: #fff;
+}
+#home {
+}
+#news {
+	font-family: "Send Flowers", cursive;
+	color: #181618;
+	font-size: 90px;
+	position: absolute;
+	left: 650px;
+	top: 177px;
+}
+#HOME {
+	font-family: "Cinzel", serif;
+	font-optical-sizing: auto;
+    font-style: normal;
+	color: #FFFFFF;
+	font-size: 80px;
+	position: absolute;
+	left: 791px;
+	top: 261px;
+}
+#h2 {
+	font-family: "Send Flowers", cursive;
+	font-weight: 400;
+	font-style: normal;
+	color: #CB76B6;
+	font-size: 70px;
+	text-shadow: 0px 0px 8px;
+	position: absolute;
+	left: 850px;
+	top: 300px;
+}
+#concerts {
+	font-size: 40px;
+	font-family: "Cinzel", serif;
+	color: #521011;
+	text-shadow: 0px 0px 8px;
+	position: absolute;
+	left: 435px;
+	top: 399pt;
+	
+}
+#video {
+	position: absolute;
+	left: 522px;
+	top: 291px;
+}
+#store {
+	position: absolute;
+	top: 557px;
+	left: 183px;
+	color: #976591;
+}
+#STORE {
+	position: absolute;
+	left: 919px;
+	top: 532px;
+	color: #976591;
+	font-size: 40px;
+}
+#h3 {
+	position: absolute;
+	left: 694px;
+	top: 954px;
+	font-size: 30px;
+	color: #976591;
+}
+#mailing {
+	position: absolute;
+	left: 447px;
+	top: 302px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #E288D9;
+	text-shadow: 0px 0px 8px #FFFFFF;
+	font-size: 80px;
+}
+#blog {
+	position: absolute;
+	left: 1160px;
+	top: 365px;
+	font-size: 70px;
+	color: #F9D8F2;
+}
+#privacy {
+	position: absolute;
+	top: 355px;
+	left: 36px;
+	color: #D05959;
+	text-align: justify;
+	font-size: 30px;
+	text-indent: 867px;
+}
